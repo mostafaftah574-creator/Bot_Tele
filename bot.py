@@ -642,7 +642,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 للإبلاغ عن مشكلة أو استفسار:
 • البوت: @AlKaref101_bot
-• المطور: @FF2_B
+• المطور: @FF2_B(FF2_B)
 
 يرجي نشر البوت مع اصحابك
         """
