@@ -29,8 +29,8 @@ from telegram.constants import ParseMode
 
 # ==================== الإعدادات الأساسية ====================
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-ADMIN_IDS = [int(id) for id in os.environ.get("ADMIN_IDS", "123456789").split(",")]
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8755132828:AAFQzrbEXq-w-ZfjCMNIHD7H4mOzHV0QFcw")
+ADMIN_IDS = [int(id) for id in os.environ.get("ADMIN_IDS", "6918240643").split(",")]
 DATA_DIR = '/data/' if os.path.exists('/data/') else './'
 DATABASE_NAME = os.path.join(DATA_DIR, 'bot.db')
 os.makedirs(DATA_DIR, exist_ok=True)
