@@ -641,10 +641,10 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 📞 **التواصل**
 
 للإبلاغ عن مشكلة أو استفسار:
-• البوت: @SupportBot
-• المطور: @Developer
+• البوت: @AlKaref101_bot
+• المطور: @FF2_B
 
-ساعات العمل: 24/7
+يرجي نشر البوت مع اصحابك
         """
         keyboard = [[InlineKeyboardButton("🔙 رجوع", callback_data="back_main")]]
         await query.edit_message_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
